@@ -1,5 +1,4 @@
 # Python
  Learnig Python
- 
- 1st project:
- A simple quiz game
+
+1st project: A simple quiz game - IN PROGRESS
