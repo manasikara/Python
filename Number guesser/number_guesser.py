@@ -73,4 +73,4 @@ print('Thanks for the game')
 
 time.sleep(4)
 
-# to be continued.... unable to fix the error for now
+# to be continued.... unable to fix that error for now ¯\_( ͡° ͜ʖ ͡°)_/¯
