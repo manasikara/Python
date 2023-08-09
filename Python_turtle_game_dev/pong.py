@@ -11,4 +11,4 @@ WIDTH = (600)
 HEIGHT = (600)
 
 pygame.init()
-game_font = pygame.font.SysFont('Ubuntu' 40)
+game_font = pygame.font.SysFont('Ubuntu', 40)
