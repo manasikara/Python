@@ -1,27 +1,14 @@
-# just a Pong game. Source --> https://www.youtube.com/watch?v=XGf2GcyHPhc&t=184s
+# just a Pong game. Source --> https://www.youtube.com/watch?v=HNCAi0sjAz8
 
+import pygame
 
-import turtle
+# variables and constants
 
-wn = turtle.Screen()
-wn.title("Pong by Statinger")
-wn.bgcolor("black")
-wn.setup(width=800, height=600)
-wn.tracer(0)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
 
+WIDTH = (600)
+HEIGHT = (600)
 
-# Paddle A
-paddle_a = turtle.Turtle()
-paddle_a.speed(0)
-paddle_a.shape("square")        
-paddle_a.color("white")
-paddle_a.penup()
-paddle_a.goto(-350, 0)
-
-
-# Paddle B
-
-
-# tbc....
-
-    
+pygame.init()
+game_font = pygame.font.SysFont('Ubuntu' 40)
