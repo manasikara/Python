@@ -8,5 +8,7 @@
 3rd project: Pong game
 
 "Data Science" - learning basics of Python
+
 "Python_mac_desk" - learning basics of Python
+
 "Python_turtle_game_dev" - will be updated with new games written in Python
