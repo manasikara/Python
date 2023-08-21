@@ -12,3 +12,5 @@
 "Python_mac_desk" - learning basics of Python
 
 "Python_turtle_game_dev" - will be updated with new games written in Python
+
+Started a Python course with MIMO
