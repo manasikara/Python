@@ -32,7 +32,3 @@ while True:
 print("You win", user_wins, "times")
 print("Computer win", computer_wins, "times")
 print("See u later, mate!")
-
-
-
-# just trying to sync...
