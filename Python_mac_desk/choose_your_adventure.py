@@ -1,26 +1,40 @@
-# learning source --> https://www.youtube.com/watch?v=DLn3jOsNRVE&list=PLE3yaxY1qUqOg2_EV35loEGXnC8nuSbrn&index=12
-
 name = input("Type your name: ")
+print("Welcome", name, "to this adventure!")
 
-print = input("Welcome " + name + " to this Pixel Adventure!. Use the capitalised words as an answer")
+answer = input(
+    "You are on a dirt road, it has come to an end and you can go left or right. Which way would you like to go? ").lower()
 
-answer = input("You're in your room, in front of your PC. The PC is turned off. Do you want to START it or LEAVE the room in order to do some useless activities? ").lower()
+if answer == "left":
+    answer = input(
+        "You come to a river, you can walk around it or swim accross? Type walk to walk around and swim to swim accross: ")
 
-if answer == "start":
-    answer = input("A beautifull beep sound had been played and you see the 'Welcome to the Pixel World' writing on the screen. Do you want to LOG-IN, or SHUTDOWN?")
-    
-    if answer == "log-in":
-        print("Start exploring! + name")
-    elif answer == "shutdown":
-      print("Bye + name")
+    if answer == "swim":
+        print("You swam acrross and were eaten by an alligator.")
+    elif answer == "walk":
+        print("You walked for many miles, ran out of water and you lost the game.")
     else:
-        print("Not a valid option, looser!")    
-            
+        print('Not a valid option. You lose.')
 
-elif answer == "leave":
-    print("You really mus'nt like the Pixel World. Bye.")
+elif answer == "right":
+    answer = input(
+        "You come to a bridge, it looks wobbly, do you want to cross it or head back (cross/back)? ")
+
+    if answer == "back":
+        print("You go back and lose.")
+    elif answer == "cross":
+        answer = input(
+            "You cross the bridge and meet a stranger. Do you talk to them (yes/no)? ")
+
+        if answer == "yes":
+            print("You talk to the stanger and they give you gold. You WIN!")
+        elif answer == "no":
+            print("You ignore the stranger and they are offended and you lose.")
+        else:
+            print('Not a valid option. You lose.')
+    else:
+        print('Not a valid option. You lose.')
 
 else:
-    print("Not a valid option, looser!")    
-    
-    #TBC...
+    print('Not a valid option. You lose.')
+
+print("Thank you for trying", name)
